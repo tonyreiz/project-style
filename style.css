@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100..700&display=swap');
+
+@font-face {
+    font-family: jujutsu;
+    src: url(Jujutsu\ Kaisen.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: linear-gradient(#110726, #a27cf3, #6C69BF)center no-repeat;
+    background-size: cover;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.7rem;
+    color: #FFDBFF;
+    text-shadow: 4px 4px #6C69BF;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    font-family: jujutsu;
+}
+
+
+
+img {
+    align-items: center;
+    width: 50%;
+    border: groove #110726 3vh;
+    display: block;
+    margin: auto;
+
+}
+
+p {
+    padding-top: 2rem;
+    font-size: 1rem;
+    text-align: center;
+    font-family: "M PLUS Code Latin", monospace;
+    background-color: #7074BB;
+    border-radius: 50px;
+    padding: 1rem;
+   
+}
